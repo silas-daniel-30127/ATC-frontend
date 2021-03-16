@@ -1,4 +1,4 @@
-# atc-priject
+# atc-project
 
 > A Vue.js project
 

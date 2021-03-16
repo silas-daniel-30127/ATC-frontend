@@ -4,9 +4,6 @@ import VueResource from 'vue-resource'
 import VueRouter from 'vue-router'
 import Routes from './routes'
 
-// import ApexCharts from 'apexcharts'
-
-// Vue.use(ApexCharts);
 Vue.use(VueResource);
 Vue.use(VueRouter);
 

@@ -1,20 +1,32 @@
 <template>
   <nav>
     <ul>
-      <li><router-link to="/login" exact>Login</router-link></li>
-       <li><router-link to="/atc" exact>Air Traffic</router-link></li>
-       <li><router-link to="/" exact>Airport</router-link></li>
+      <li id="register">
+        <router-link to="/login" exact>Login</router-link>
+      </li>
+      <li>
+        <router-link to="/atc" exact>Air Traffic</router-link>
+      </li>
+      <li>
+        <router-link to="/" exact>Airport</router-link>
+      </li>
+      <li id="register">
+        <router-link to="/register" exact>Register</router-link>
+      </li>
     </ul>
   </nav>
 </template>
 
 <script>
-export default {
-}
-  
+export default {}
+
 </script>
 
 <style>
+#register {
+  float: right;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -41,7 +53,7 @@ li a:hover {
 }
 
 .router-link-active {
-    background: #eee;
-    color: #444;
+  background: #eee;
+  color: #444;
 }
 </style>

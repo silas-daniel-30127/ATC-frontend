@@ -7,17 +7,19 @@
 
 <script>
 import logIn from './components/login';
-import atc from './components/atc.vue';
+import atc from './components/atc';
 import header from './components/header';
+import register from './components/register';
 export default {
   components: {
     'login': logIn,
     'atc': atc,
-    'app-header': header
+    'app-header': header,
+    'register': register
   },
- 
+
   methods: {
-      
+
   },
   computed: {
 
